@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer a img {
+  color: purple;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding-top: 30px;
+  }
+}

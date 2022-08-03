@@ -1,13 +1,12 @@
 import * as React from 'react';
+import * as classes from './nav-bar.module.css';
+
 import { Link } from 'gatsby';
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className={classes.nav}>
       <ul>
-        <li>
-          <Link to='/index'>Home</Link>
-        </li>
         <li>
           <Link to='/news'>News</Link>
         </li>
