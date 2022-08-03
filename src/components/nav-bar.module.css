@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+
+.nav {
+  text-align: center;
+  font-family: 'Alfa Slab One',
+    cursive;
+  font-family: 'Fredoka One',
+    cursive;
+  font-family: 'Poppins',
+    sans-serif;
+  font-family: 'Roboto Condensed',
+    sans-serif;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  font-size: 6em;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  color: #2D2828;
+}
+
+.nav ul li a:hover {
+  color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav ul li {
+    font-size: 3em;
+  }
+}

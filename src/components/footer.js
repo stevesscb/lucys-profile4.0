@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as classes from './footer.module.css';
 
 import LinkedIn from '/src/images/linkedIn.png';
 import Email from '/src/images/email.png';
@@ -6,7 +7,7 @@ import Twitter from '/src/images/twitter.png';
 
 const Footer = () => {
   return (
-    <div>
+    <div className={classes.footer}>
       <a
         href='https://au.linkedin.com/in/lucy-quaggin'
         target='_blank'

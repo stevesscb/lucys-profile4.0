@@ -5,9 +5,8 @@ import NavBar from '../components/nav-bar';
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle='Home Page'>
+    <Layout>
       <NavBar />
-      <p>This is the index page!</p>
     </Layout>
   );
 };

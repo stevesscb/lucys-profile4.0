@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Roboto+Condensed&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.top {
+  font-family: 'Alfa Slab One',
+    cursive;
+  font-family: 'Fredoka One',
+    cursive;
+  font-family: 'Roboto Condensed',
+    sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.top:hover {
+  color: purple;
+}

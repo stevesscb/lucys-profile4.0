@@ -3,9 +3,34 @@ import Layout from '../components/layout';
 
 const NewsPage = () => {
   return (
-    <Layout pageTitle='News Page'>
-      <p>This is the news page!</p>
-    </Layout>
+    <>
+      <Layout pageTitle='News Page'>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+        <p>This is the news page!</p>
+      </Layout>
+    </>
   );
 };
 

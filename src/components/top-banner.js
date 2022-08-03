@@ -10,11 +10,6 @@ const TopBanner = () => {
         <h1>LUCY QUAGGIN</h1>
         <h4>JOURNALIST</h4>
       </div>
-      <div className={classes.link}>
-        <li>
-          <Link to='/'>Home</Link>
-        </li>
-      </div>
     </div>
   );
 };
