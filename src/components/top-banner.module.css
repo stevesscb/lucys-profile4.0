@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Roboto+Condensed&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+.heading {
+  font-family: 'Alfa Slab One',
+    cursive;
+  font-family: 'Fredoka One',
+    cursive;
+  font-family: 'Roboto Condensed',
+    sans-serif;
+  padding: 1em;
+}
+
+.heading h1 {
+  letter-spacing: 0.2em;
+}
+
+.heading h4 {
+  letter-spacing: 0.5em;
+}
