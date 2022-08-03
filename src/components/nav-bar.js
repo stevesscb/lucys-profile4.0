@@ -6,6 +6,9 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
+          <Link to='/index'>Home</Link>
+        </li>
+        <li>
           <Link to='/news'>News</Link>
         </li>
         <li>

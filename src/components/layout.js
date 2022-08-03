@@ -10,8 +10,8 @@ const Layout = ({ pageTitle, children }) => {
     <div>
       <title>{pageTitle}</title>
       <Container>
+        <TopBanner />
         <main>
-          <TopBanner />
           <h1>{pageTitle}</h1>
           {children}
         </main>
