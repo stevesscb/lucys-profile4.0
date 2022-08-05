@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as classes from './article.module.css';
+import * as classes from './article.module.scss';
 
 const Article = () => {
   return (

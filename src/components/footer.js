@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as classes from './footer.module.css';
+import * as classes from './footer.module.scss';
 
 import LinkedIn from '/src/images/linkedIn.png';
 import Email from '/src/images/email.png';
