@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
 
-import * as classes from './top-banner.module.css';
+import * as classes from './top-banner.module.scss';
 
 const TopBanner = () => {
   return (

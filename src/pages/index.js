@@ -5,7 +5,7 @@ import NavBar from '../components/nav-bar';
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout indexTitle='Professional Portfolio'>
       <NavBar />
     </Layout>
   );

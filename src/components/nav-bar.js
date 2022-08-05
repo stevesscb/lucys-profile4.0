@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as classes from './nav-bar.module.css';
+import * as classes from './nav-bar.module.scss';
 
 import { Link } from 'gatsby';
 
