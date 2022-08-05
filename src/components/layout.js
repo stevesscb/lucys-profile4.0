@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as classes from './layout.module.css';
+import * as classes from './layout.module.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Container from 'react-bootstrap/Container';
@@ -8,23 +8,25 @@ import Footer from './footer';
 
 import { Link } from 'gatsby';
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, children, indexTitle }) => {
   const currentLocation = window.location.pathname;
 
   return (
     <div id='top'>
-      <title>Lucy Quaggin | Professional Portfolio</title>
+      <title>
+        Lucy Quaggin | {pageTitle} {indexTitle}
+      </title>
       <Container>
         <TopBanner />
         <main className={classes.main}>
           {currentLocation === '/' ? (
             ''
           ) : (
-            <Link className={classes.top} to='/'>
+            <Link className={classes.returnBtn} to='/'>
               Return
             </Link>
           )}
-          <h1>{pageTitle}</h1>
+          <h1 className={classes.pageTitle}>{pageTitle}</h1>
           {children}
           {currentLocation === '/' ? (
             ''
@@ -35,6 +37,9 @@ const Layout = ({ pageTitle, children }) => {
           )}
         </main>
         <Footer />
+        {/* <div className={classes.adminBtn}>
+          <Link>Admin</Link>
+        </div> */}
       </Container>
     </div>
   );

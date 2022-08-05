@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Roboto+Condensed&display=swap');
+
+$roboto-condensed: 'Roboto Condensed', sans-serif;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.returnBtn {
+  font-family: $roboto-condensed;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-decoration: underline;
+}
+
+.pageTitle {
+  font-family: $roboto-condensed;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 0.2em;
+  padding-bottom: 20px;
+}
+
+.top {
+  font-family: $roboto-condensed;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  padding-top: 40px;
+  text-decoration: underline;
+}
+
+.top:hover,
+.returnBtn:hover,
+.adminBtn:hover {
+  color: purple;
+}
+
+.adminBtn {
+  font-family: $roboto-condensed;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-size: large;
+}

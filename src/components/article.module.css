@@ -1,0 +1,14 @@
+.container {
+  padding: 20px;
+  border: 2px solid #000;
+  width: 80%;
+}
+
+.header a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.byLine {
+  font-style: italic;
+}
