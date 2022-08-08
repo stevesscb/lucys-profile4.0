@@ -11,6 +11,8 @@ import { Link } from 'gatsby';
 const Layout = ({ pageTitle, children, indexTitle }) => {
   const currentLocation = window.location.pathname;
 
+  console.log(window.location.pathname);
+
   return (
     <div id='top'>
       <title>
@@ -28,7 +30,7 @@ const Layout = ({ pageTitle, children, indexTitle }) => {
           )}
           <h1 className={classes.pageTitle}>{pageTitle}</h1>
           {children}
-          {currentLocation === '/' ? (
+          {currentLocation === '/' || currentLocation === '/auth/login' ? (
             ''
           ) : (
             <a className={classes.top} id='top' href='#top'>
@@ -37,9 +39,15 @@ const Layout = ({ pageTitle, children, indexTitle }) => {
           )}
         </main>
         <Footer />
-        {/* <div className={classes.adminBtn}>
-          <Link>Admin</Link>
-        </div> */}
+        {currentLocation === '/' ? (
+          <div className={classes.adminBtnContainer}>
+            <Link className={classes.adminBtn} to='/auth/login'>
+              Admin
+            </Link>
+          </div>
+        ) : (
+          ''
+        )}
       </Container>
     </div>
   );
