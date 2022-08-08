@@ -43,10 +43,14 @@ $roboto-condensed: 'Roboto Condensed', sans-serif;
   color: purple;
 }
 
-.adminBtn {
+.adminBtnContainer {
   font-family: $roboto-condensed;
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
   font-size: large;
+}
+
+.adminBtn {
+  color: #000;
 }

@@ -30,26 +30,33 @@ const Resume = () => {
         copy for the web. While based in WA, it’s a national role covering
         stories from both Australia and across the globe.
       </p>
-      <p>
+      <div>
         <h4>Education:</h4>
         <strong>
           2011-2014 Curtin University, Perth <br />
         </strong>
         Bachelor of Arts in Journalism and Public Relations
-      </p>
-      <p>
-        <h4>References:</h4>
-        Crystal Chung, Group Video and Picture Editor, Global <br />
-        crystal.chung@global.com
-      </p>
-      <p>
-        Aimie Rigas, Head of Audience Development: Sydney Morning Herald, The
-        Age, Brisbane Times and WAToday <br /> aimie.rigas@gmail.com
-      </p>
-      <p>
-        Pip Christmass, State Producer, 7NEWS.com.au <br />{' '}
-        pchristmass@seven.com.au
-      </p>
+      </div>
+      <div>
+        <h4 className='pt-3'>References:</h4>
+        <ul className={classes.references}>
+          <li>
+            Crystal Chung, Group Video and Picture Editor, Global <br />
+            <strong>crystal.chung@global.com</strong>
+          </li>
+          <br />
+          <li>
+            Aimie Rigas, Head of Audience Development: Sydney Morning Herald,
+            The Age, Brisbane Times and WAToday <br />
+            <strong>aimie.rigas@gmail.com</strong>
+          </li>
+          <br />
+          <li>
+            Pip Christmass, State Producer, 7NEWS.com.au <br />
+            <strong>pchristmass@seven.com.au</strong>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
